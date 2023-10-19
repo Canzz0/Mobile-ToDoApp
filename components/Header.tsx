@@ -9,8 +9,8 @@ interface HeaderComponentProps {
 const HeaderComponent: React.FC<HeaderComponentProps> = ({ title, description }) => {
   return (
     <View>
-      <Text style={styles.showTitle}>{title}</Text>
-      <Text>{description}</Text>
+      <Text style={styles.showTitle}>{title} : {description}</Text>
+      <Text></Text>
     </View>
   );
 };
